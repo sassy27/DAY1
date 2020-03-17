@@ -281,3 +281,9 @@ print (hi)
 #     x = x + 1
 # x = 0 #any value
 
+# #while loop
+# x = 0 #any value
+# while x<10:
+#     print (f"its working --> {x}")
+#     x = x + 1
+# x = 0 #any value
