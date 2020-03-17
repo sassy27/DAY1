@@ -279,6 +279,5 @@ print (hi)
 # while x<10:
 #     print (f"its working --> {x}")
 #     x = x + 1
-#
 # x = 0 #any value
 
