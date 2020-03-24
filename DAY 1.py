@@ -1,10 +1,10 @@
 
 
-'''X = 1
-b = 2
-hi = "Hello world "
-print (hi)
-'''
+# X = 1
+# b = 2
+# hi = "Hello world "
+# print (hi)
+#
 
 # ''' print("what is your name")
 # name = input()
@@ -26,7 +26,7 @@ print (hi)
 # a=24
 # b=16
 # print(a+b)
-# print(4* "me")
+# print(4* "me") #memememe
 # print(8%3) #remainder
 
 # FloatNum = 1.356
@@ -35,7 +35,7 @@ print (hi)
 # Name = "xyz"
 # print(str(IntNum)+Name) # add a string str() to add to a num
 #
-# Example_text ="YIN IS TOP SCORER"
+# Example_text ="Yin is top scorer"
 # print(Example_text.lower())
 # print(Example_text.capitalize())
 # print(Example_text.replace("YIN ", "Sassy "))
@@ -77,12 +77,12 @@ print (hi)
 # print(hi.endswith("h"))
 # print(hi.startswith("h"))
 
-# Boolean valuses and numbers
+# Boolean values and numbers
 # x = -1
-# # y = 2
-# # print(bool(x))
-# # print(bool(y))
-# # print(bool(None))
+# y = 2
+# print(bool(x))
+# print(bool(y))
+# print(bool(None))
 
 # int_string = 6
 # print(int(int_string))
@@ -287,3 +287,96 @@ print (hi)
 #     print (f"its working --> {x}")
 #     x = x + 1
 # x = 0 #any value
+
+# #function without arguments
+# def hello():
+#     print("Hello")
+# hello()
+
+# #function without arguments
+# def func(a,b):
+#   return a+b
+# print("the sum is", func(10,20))
+
+# # function with default arguments
+# def func(a=10,b=30):
+#     return a+b
+# print("the sum is",func(20,40))
+
+# def add(a,b):
+#     return a+b
+# print(add(2,6))
+#
+
+# class Person:
+#      pass
+#      def __init__(self, first_name, last_name):
+#         self.first = first_name
+#         self.last = last_name
+#
+#      def talk(self):
+#          print(self.first, self.last)
+#          age = input("how old are you?")
+#          return "{} is {} years old".format(self.first, age)
+#
+# p1 = Person ("Sassy", "Siyan")
+# print(p1.talk())
+#
+# class Student(Person):
+#     def __init__(self,firs_name, last_name):
+#         super().__init__(firs_name,last_name)
+#
+#     def enjoy (self):
+#         hobby = input("favoriate hobby")
+#         return "{} enjoys {}".format(self.first, hobby)
+#
+# s1 = Student("Sassy", "Siyan")
+# print(s1.talk())
+# print(s1.enjoy())
+
+
+# Encapsualation
+# in a object orinated python pograme, you can restrict acess to methods and variables.
+# this can prevent the data from being modified by accident and is known as encapsulation.
+# qg asked on the 4 pillars , inheritnace, encapsulation, polymorhisim, abstraction
+
+# import reptile import *
+# class Snake(Reptile): #snake is a subclass #reptile is parent class
+#     def __init__(self, name, age):
+#         super().__init__(name,age)
+#
+#         self.name = name
+#         self.age = age
+#     def seek_heat(self):
+#         return ("Let me see some sunshine")
+#     def sleep(self):
+#         return ("Please leave me to sleep")
+#
+# Sidney = Snake ("DOO", 2)
+#
+# print(Sidney.seek_heat())
+
+
+# ploymorhisim in python defines methods in the child class that have the same
+# name as the methods from the parent class
+# in inheritance, the child class inherits the methods from the parent class
+# also, it is possible to modify a method in a child class
+# that it has inherited from the parent class and this is called as method overiding
+
+#lambda function
+#are essentially anonymous function that can take multiple parameter
+# def add(num1,num2):
+#     return num1+num2
+# addition = lambda num1,num2: num1+num2
+# print(add(23,45))
+# print(addition(23,45))
+
+# savings =[234,567,674,78]
+#
+# bouns = list(map(lambda x: x * 1.1,savings))
+# print(bouns)
+
+######################################################################################################
+
+
+
