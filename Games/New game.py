@@ -4,7 +4,7 @@ import random
 # on random words from a list of words
 
 name = input("Hi, what is your name? ")
-# Here the user is asked to enter the name first
+# Here the user is asked to enter the name firstgit push -u origin
 
 print("Good Luck", name, "!")
 print("You have 10 lives")

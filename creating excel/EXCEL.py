@@ -4,8 +4,18 @@ data9 = xlsxwriter.Workbook("data9.xlsx")
 
 worksheet = data9.add_worksheet("data9.xlsx")
 
-worksheet.write("A1","data9")
 
+row = 0
+column = 0
+content = ["sassy","siayn","ben","jonny","sparta"]
+for item in content:
+    worksheet.write(row,column,item)
+    row += 1
 
-worksheet.write("A2", "Sassy")
-data9.close()# alywas last line 
+worksheet.name = "Data 9 Team"
+
+data9.close()# alywas last line
+
+print(row)
+print(column)
+print(content)
