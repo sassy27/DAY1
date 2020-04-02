@@ -4,7 +4,6 @@ import random
 # on random words from a list of words
 
 name = input("Hi, what is your name? ")
-# Here the user is asked to enter the name firstgit push -u origin
 
 print("Good Luck", name, "!")
 print("You have 10 lives")
@@ -15,34 +14,23 @@ words = ['rainbow', 'computer', 'science', 'programming',
 # Function will choose one random
 # word from this list of words
 word = random.choice(words)
-
 print("Guess the characters")
-
 guesses = ''
 
 # any number of turns can be used here
 Lives = 10
-
 while Lives > 0:
-
-    # counts the number of times a user fails
     failed = 0
+    # counts the number of times a user fails
 
-    # all characters from the input
-    # word taking one at a time.
     for char in word:
-
-        # comparing that character with
-        # the character in guesses
         if char in guesses:
             print(char)
 
         else:
             print("_")
+            failed += 1             # for every failure 1 will be incremented in failure
 
-            # for every failure 1 will be
-            # incremented in failure
-            failed += 1
 
     if failed == 0:
         # user will win the game if failure is 0
